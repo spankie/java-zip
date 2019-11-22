@@ -15,7 +15,7 @@ import java.util.Map;
 
 public class FileHandlers {
     public FileSystem createZip(Path zipPath) throws IOException, URISyntaxException {
-        Map<String, String> providerProps = new HashMap<>() {{
+        Map<String, String> providerProps = new HashMap<String, String>() {{
             put("create", "true");
         }};
         URI zipURI = new URI("jar:file", zipPath.toUri().getPath(), null);
