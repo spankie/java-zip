@@ -23,7 +23,9 @@
 hs_err_pid*
 
 # builds
-zipper.jar
+*.jar
 
 # MACOS
 .DS_Store
+
+*.txt
