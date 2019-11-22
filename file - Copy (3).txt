@@ -1,0 +1,4 @@
+Hello Java
+I am here to learn streams
+What about you?
+Copy3
