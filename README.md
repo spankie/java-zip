@@ -21,4 +21,31 @@ there are two types of data written/read from a stream. bytes or chars
 ======================================
 
 
+Input streams = Bytearrayinputstream, PipeInputStreams FIleInputStreams
 
+OutPut streams = BytearrayOutPutstream, PipeOutPutStreams FIleOutPutStreams
+
+========================================
+
+Reader = CharArrayReader, StringReader, Piped Reader, InputStreamReader (FileReader underneath)
+
+
+Writer  = CharArrayWriter , StringWriter , Piped Writer , InputStreamWriter (FileWriter underneath)
+
+
+
+Handling errors with autoclosable and closeable interfaces
+
+- FileReader
+- FileWriter 
+- FileInputStream 
+- FileOutputStream
+
+Replace with:
+
+- BufferReader 
+- BufferWriter 
+- BufferedInputStream 
+- BufferedOutputStream 
+
+write and readAllLines
